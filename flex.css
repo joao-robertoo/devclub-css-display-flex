@@ -12,6 +12,10 @@ h1 {
     margin: 10px;
     border: 1px solid pink;
     display: flex;
+    flex-direction: row-reverse;
+    //flex-direction: row;
+    //flex-direction: column-reverse;
+    //flex-direction: column;
 }
 
 .block {
