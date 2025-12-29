@@ -11,9 +11,10 @@ h1 {
 .container {
     margin: 10px;
     border: 1px solid red;
+    height: 90vh;
     display: flex;
-    width: 400px;
-    flex-flow: row wrap;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .block {
