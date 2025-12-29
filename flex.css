@@ -10,12 +10,10 @@ h1 {
 
 .container {
     margin: 10px;
-    border: 1px solid pink;
+    border: 1px solid red;
     display: flex;
-    flex-direction: row-reverse;
-    //flex-direction: row;
-    //flex-direction: column-reverse;
-    //flex-direction: column;
+    width: 400px;
+    flex-wrap: wrap;
 }
 
 .block {
