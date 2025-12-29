@@ -32,6 +32,7 @@ h1 {
        2º flex-grow
        3º flex-shrink
     */
+    order: 2;
 }
 
 .secound-block {
@@ -43,4 +44,5 @@ h1 {
     text-align: center;
     margin: 10px;
     flex: 100px 4 4;
+    order: 1;
 }
