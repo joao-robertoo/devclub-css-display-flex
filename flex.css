@@ -13,15 +13,12 @@ h1 {
     border: 1px solid red;
     height: 90vh;
     display: flex;
-    width: 300px;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
+    width: 600px;
+    gap: 50px
 }
 
 .block {
     width: 100px;
-    height: 100px;
     background: lightblue;
     border: 5px solid blue;
     border-radius: 10px;
