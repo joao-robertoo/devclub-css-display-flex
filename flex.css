@@ -14,6 +14,8 @@ h1 {
     height: 700px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    align-self: flex-end;
 }
 
 .block {
@@ -25,24 +27,6 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin: 10px;
-    /* flex-basis: 300px; */
-    /* flex-gorw: 1; */
-    flex: 100px 1 1;
-    /* 1º flex-basis
-       2º flex-grow
-       3º flex-shrink
-    */
-    order: 2;
-}
-
-.secound-block {
-    background: lightblue;
-    border: 5px solid blue;
-    border-radius: 10px;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    margin: 10px;
-    flex: 100px 4 4;
-    order: 1;
+    height: 100px;
+    flex-grow: 1;
 }
