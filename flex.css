@@ -11,8 +11,9 @@ h1 {
 .container {
     margin: 10px;
     border: 1px solid red;
-    height: 90vh;
+    height: 700px;
     display: flex;
+    justify-content: space-between;
 }
 
 .block {
@@ -24,6 +25,22 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin: 10px;
-    flex-shrink: 2;
-    flex-basis: 200px;
+    /* flex-basis: 300px; */
+    /* flex-gorw: 1; */
+    flex: 100px 1 1;
+    /* 1º flex-basis
+       2º flex-grow
+       3º flex-shrink
+    */
+}
+
+.secound-block {
+    background: lightblue;
+    border: 5px solid blue;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    flex: 100px 4 4;
 }
