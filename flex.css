@@ -13,8 +13,10 @@ h1 {
     border: 1px solid red;
     height: 90vh;
     display: flex;
-    flex-direction: column;
+    width: 300px;
+    flex-wrap: wrap;
     align-items: center;
+    align-content: center;
 }
 
 .block {
