@@ -23,5 +23,6 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin: 10px;
-    flex-basis: 500px;
+    flex-basis: 100px;
+    flex-grow: 1;
 }
